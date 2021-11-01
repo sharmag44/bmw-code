@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75vw;
+}
+.image__logo {
+  padding: 4px;
+  height: 100px;
+  width: 100px;
+  border-radius: 60%;
+  object-fit: center;
+}
+.header__title {
+  padding: 0.3rem 0;
+  position: relative;
+  left: 100px;
+}
+.Card {
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.card-img-top {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+@media only screen and(max-device-width:650px) {
+  .image__logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 60%;
+  }
+  .header__title {
+    font-size: 20px;
+  }
+  .card-title {
+    text-align: center;
+  }
+}
